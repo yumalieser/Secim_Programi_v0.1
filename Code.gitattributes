@@ -1,0 +1,30 @@
+#Secim oylarinda verilen oyların sayılması ve adaylara dağıtımı üzerine bir program
+
+print('Merhaba degerli vatandas. Vereceğiniz oydan hemen sonra adayların önceden almış aldığı oy sayılarını görebilirsiniz.')
+
+print("Aşağıdaki sorulara eksiksiz yanıt verelim. Ve son aşamaya kadar ilerleyelim lütfen.")
+
+isim = input("Lütfen adınızı ve soyadınızı giriniz:")
+print("Merhaba", isim ,"Vereceğin oylar bizim için önemli..")
+
+yas = int(input("Lütfen yaşınızı giriniz:"))
+
+
+if yas < 18:
+    print("Yaşınız oy vermek için uygun değil!")
+
+else:
+    print("Tebrikler şimdi oy verebilirsiniz!")
+    print("\nLütfen aşağıdaki adaylardan birini seçiniz...")
+    print("Birden fazla verilen oylar ve adayların numaraları haricindeki oylar geçersiz sayılır...")
+
+    print("1. Recep Tayyip Erdoğan \n2. Mansur Yavaş \n3. Muharrem İnce \n4. Kemal Kılıçdaroğlu \n5. Devlet Bahçeli")
+    oy = input("\nLütfen yukarıdaki adaylardan birini seçiniz : ")
+
+    print(    "Sayın", isim , "oy verme işleminiz başarıyla gerçekleştirilmiştir... " )
+    print("Oyunuzu kullanmış olduğunuz aday", oy,"'dır. ")
+
+
+    print("\n Burada bulunan veriler ve şahıslar ilgili uygulama içindir. Gerçeği yansıtmamaktadır!!!")
+    print("\n Uygulamamızı kullandığınız için teşekkürler. Geliştirmeye devam edeceğim. Bana ulaşmak için Github hesabım :@yumalieser")
+    print("\n UYGULAMA SÜRÜMÜ v0.1")
